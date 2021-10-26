@@ -20,7 +20,7 @@ Route::get('/', function () {
 });
 
 Route::get('/checkdatabase', function() {
-    $theloai = App\Models\TheLoai::All();
+    $theloai = App\TheLoai::All();
     foreach($theloai as $value) {
         echo $value;
     }
@@ -128,5 +128,5 @@ Route::get('dangky','App\Http\Controllers\PageController@getDangky');
 Route::post('dangky','App\Http\Controllers\PageController@postDangky');
 
 Route::post('comment/{id}','App\Http\Controllers\CommentController@postComment');
-
-Route::post('timkiem','App\Http\Controllers\PageController@timkiem');
+Route::post('timkiem', 'App\Http\Controllers\PageController@timkiem');
+Route::get('timkiem','App\Http\Controllers\PageController@timkiem');

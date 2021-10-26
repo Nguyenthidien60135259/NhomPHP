@@ -15,7 +15,7 @@
                     <div class="row-item row">
                         <div class="col-md-3">
 
-                            <a href="detail.html">
+                            <a href="tintuc/{{$tt->id}}/{{$tt->TieuDeKhongDau}}.html">
                                 <br>
                                 <img width="200px" height="200px" class="img-responsive" src="upload/tintuc/{{$tt->Hinh}}" alt="">
                             </a>

@@ -51,7 +51,7 @@
 				                	</div>
 									@endif
 				                    
-
+									@if (isset($data))
 									<div class="col-md-4">
 										@foreach($data->all() as $tintuc)
 										<a href="tintuc/{{$tintuc['id']}}/{{$tintuc['TieuDeKhongDau']}}.html">
@@ -61,8 +61,8 @@
 											</h4>
 										</a>
 										@endforeach
-										
 									</div>
+									@endif
 									
 									<div class="break"></div>
 				                </div>
