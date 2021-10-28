@@ -22,7 +22,7 @@
                 </ul>
 
                 <form action="timkiem" method="POST" style="margin-left: 60px;" class="navbar-form navbar-left" role="search">
-                    @csrf
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
 			        <div class="form-group">
 			          <input name="tukhoa" type="text" class="form-control" placeholder="Nhập từ khóa tìm kiếm ...">
 			        </div>
