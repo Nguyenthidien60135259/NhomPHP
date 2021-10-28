@@ -7,7 +7,6 @@
                 <p><span class="glyphicon glyphicon-time"></span> Posted on: {{$tintuc->created_at}}</p>
                 <hr>
                 <p class="lead">
-                	
                 	{!! $tintuc->NoiDung !!}
                 </p>
 
@@ -34,7 +33,7 @@
 
                 @foreach($tintuc->comment as $cm)
                 <div class="media">
-                    <a class="pull-left" href="#">
+                    <a class="pull-left">
                         <img width="64px" height="64px" class="media-object" src="upload/tintuc/user.jpg" alt="">
                     </a>
                     <div class="media-body">
@@ -62,7 +61,7 @@
                                 </a>
                             </div>
                             <div class="col-md-7">
-                                <a href="#"><b>{{$tintuc->TieuDe}}</b></a>
+                                <a href="tintuc/{{$tintuc->id}}/{{$tintuc->TieuDeKhongDau}}.html"><b>{{$tintuc->TieuDe}}</b></a>
                             </div>
                             
                             <div class="break"></div>
@@ -84,7 +83,6 @@
                             <div class="col-md-7">
                                 <a href="tintuc/{{$tt->id}}/{{$tt->TieuDeKhongDau}}.html"><b>{{$tt->TieuDe}}</b></a>
                             </div>
-                            
                             <div class="break"></div>
                         </div>
                         @endforeach

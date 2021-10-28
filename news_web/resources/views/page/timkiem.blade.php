@@ -10,6 +10,7 @@
                     return str_replace($tukhoa,"<span style='color:red'><i>$tukhoa</i></span>",$str);
                 }
             ?>
+            
             <div class="col-md-9 ">
                 <div class="panel panel-default">
                     <div class="panel-heading" style="background-color:#337AB7; color:white;">
@@ -36,8 +37,6 @@
                     <div style="text-align: center">
                         {{$tintuc->links()}}
                     </div>
-                    
-                    
                 </div>
             </div> 
         </div>

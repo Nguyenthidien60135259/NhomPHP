@@ -185,7 +185,6 @@ class PageController extends Controller
         $tukhoa = $request->tukhoa;
         // tìm từ khóa trong TieuDe,TomTat,NoiDung
         $tintuc = TinTuc::where('TieuDe','like',"%$tukhoa%")->orWhere('TomTat','like',"%$tukhoa%")->orWhere('NoiDung','like',"%$tukhoa%")->take(30)->paginate(5);
-        
         //response dữ liệu về view timkiem
         return view('page.timkiem',['tintuc'=>$tintuc, 'tukhoa'=>$tukhoa]);
     }
