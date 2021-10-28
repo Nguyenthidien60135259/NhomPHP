@@ -5,6 +5,8 @@
 // "files": [
 //         "app/function/function.php"
 // ]
+//chưa có css à t cx tù chối hiểu k lẽ chỗ nào cx paste css 
+//public chưa có css kìa =))) h copy dô thôi 
 
 // Chạy cmd : composer  dumpautoload
 

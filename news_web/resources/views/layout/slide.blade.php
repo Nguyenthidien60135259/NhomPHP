@@ -23,7 +23,7 @@
                          class="item active" @else
                          class="item" @endif>
                          <?php  $i++; ?>
-                            <img class="slide-image" width="800px" height="400px" src="upload/slide/{{$sl->Hinh}}" alt="{{$sl->NoiDung}}">
+                            <img class="slide-image" width="600px" height="400px" src="upload/slide/{{$sl->Hinh}}" alt="{{$sl->NoiDung}}">
                         </div>
                         @endforeach
                     </div>

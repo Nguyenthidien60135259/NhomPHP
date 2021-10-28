@@ -54,6 +54,8 @@ class TinTucController extends Controller
         $tintuc->idLoaiTin = $request->LoaiTin;
         $tintuc->NoiDung = $request->NoiDung;
         $tintuc->SoLuotXem = 0;
+
+        // cái kiểm tra ảnh nè
         if ($request->hasFile('Hinh'))
         {
             $file = $request->file('Hinh');

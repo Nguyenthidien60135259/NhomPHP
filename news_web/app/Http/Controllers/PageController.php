@@ -12,10 +12,14 @@ use App\Models\TinTuc;
 use App\Models\User;
 class PageController extends Controller
 {
+    //hàm khởi tạo
     function __construct()
     {
+        
+        //lấy toàn bộ TheLoai,Slide
         $theloai = TheLoai::all();
         $slide = Slide::all();
+        //response dữ liệu ra file trang chủ
         view()->share('theloai',$theloai);
         view()->share('slide',$slide);
         if(Auth::check())
@@ -24,8 +28,11 @@ class PageController extends Controller
         }    
 
     }
-    function trangchu()
+    
+    //hàm này lấy về biến $theloai ở hàm khởi tạo
+    public function trangchu()
     {
+       
         return view('page.trangchu');
     }
 
@@ -41,15 +48,20 @@ class PageController extends Controller
         return view('page.gioithieu');
     }
 
+    //hàm loại tin
     function loaitin($id)
     {
+        //lấy loại tin theo id
         $loaitin = LoaiTin::find($id);
         $tintuc = TinTuc::where('idLoaiTin',$id)->paginate(5);
+        //response dữ liệu ra view loaitin
         return view('page.loaitin',['loaitin'=>$loaitin, 'tintuc'=>$tintuc]);
     }
 
+    //hàm tin tức
     function tintuc($id)
     {
+        //lấy tin tức có NoiBat
         $tintuc = TinTuc::find($id);
         $tinnoibat = TinTuc::where('NoiBat',1)->take(4)->get();
         $tinlienquan = TinTuc::where('idLoaiTin',$tintuc->idLoaiTin)->take(4)->get();
@@ -106,7 +118,7 @@ class PageController extends Controller
             'name.min'=>'Tên người dùng phải từ 3 kí tự',
             
         ]);
-        $user =  Auth::user();
+         $user = Auth::user();
         $user->name = $request->name;
        
         if($request->changePassword == "on")
@@ -165,10 +177,15 @@ class PageController extends Controller
          return redirect('dangnhap')->with('thongbao', 'Đăng ký thành công');
     }
 
+    
+    //hàm tìm kiếm
     function timkiem(Request $request)
     {
+        // request từ khóa 
         $tukhoa = $request->tukhoa;
-        $tintuc = TinTuc::where('TieuDe','like',"%$tukhoa%")->orWhere('TomTat','like',"%$tukhoa%")->orWhere('NoiDung','like',"%$tukhoa%")->take(20)->paginate(5);
+        // tìm từ khóa trong TieuDe,TomTat,NoiDung
+        $tintuc = TinTuc::where('TieuDe','like',"%$tukhoa%")->orWhere('TomTat','like',"%$tukhoa%")->orWhere('NoiDung','like',"%$tukhoa%")->take(30)->paginate(5);
+        //response dữ liệu về view timkiem
         return view('page.timkiem',['tintuc'=>$tintuc, 'tukhoa'=>$tukhoa]);
     }
 
