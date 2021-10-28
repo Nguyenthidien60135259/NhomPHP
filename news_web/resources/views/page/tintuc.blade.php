@@ -82,7 +82,7 @@
                                 </a>
                             </div>
                             <div class="col-md-7">
-                                <a href="#"><b>{{$tt->TieuDe}}</b></a>
+                                <a href="tintuc/{{$tt->id}}/{{$tt->TieuDeKhongDau}}.html"><b>{{$tt->TieuDe}}</b></a>
                             </div>
                             
                             <div class="break"></div>
