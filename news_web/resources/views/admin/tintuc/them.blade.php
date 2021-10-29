@@ -98,8 +98,8 @@
 
                     
                     {{-- Thêm mới tin tức --}}
-                    <button type="submit" class="btn btn-default">Thêm tin tức</button>
-                    <button type="reset" class="btn btn-default">Làm mới</button>
+                     <button type="submit" class="btn btn-success">Thêm tin tức</button>
+                    <button type="reset" class="btn btn-primary">Làm mới</button>
                 <form>
             </div>
         </div>
