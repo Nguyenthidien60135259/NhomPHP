@@ -20,6 +20,12 @@
 
     <!-- Custom Fonts -->
     <link href="admin_asset/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        body{
+     
+     background: black;
+ }
+    </style>
 
 </head>
 
