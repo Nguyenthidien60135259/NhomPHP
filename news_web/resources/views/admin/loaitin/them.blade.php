@@ -38,8 +38,8 @@
                                 <input class="form-control" name="Ten" placeholder="Nhập tên loại tin ..." />
                             </div>
                            
-                            <button type="submit" class="btn btn-default">Thêm</button>
-                            <button type="reset" class="btn btn-default">Làm mới</button>
+                            <button type="submit" class="btn btn-success">Thêm</button>
+                            <button type="reset" class="btn btn-primary">Làm mới</button>
                         <form>
                     </div>
                 </div>
