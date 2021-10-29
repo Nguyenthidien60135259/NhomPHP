@@ -113,7 +113,7 @@
                                 </a>
                             </div>
                             <div class="col-md-7">
-                                <a href="tintuc/{{$tintuc->id}}/{{$tintuc->TieuDeKhongDau}}.html"><b>{{$tt->TieuDe}}</b></a>
+                                <a href="tintuc/{{$tt->id}}/{{$tt->TieuDeKhongDau}}.html"><b>{{$tt->TieuDe}}</b></a>
                             </div>
                             <!-- <p style="padding-left: 5px; padding-right: 5px">{{$tt->TomTat}}</p> -->
                             <div class="break"></div>
