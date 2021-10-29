@@ -30,19 +30,19 @@
              <ul class="info">
                  <li>
                      <span><i class="fa fa-map-marker"></i></span>
-                     <span>Đường Số 1<br />
-                         Quận 1, Thành Phố Hồ Chí Minh<br />
+                     <span>02 Nguyễn Đình Chiểu<br />
+                         Vĩnh Thọ, Nha Trang, Khánh Hòa<br />
                          Việt Nam</span>
                  </li>
                  <li>
                      <span><i class="fa fa-phone"></i></span>
-                     <p><a href="#">+84 123 456 789</a>
+                     <p><a href="#">+84 02589464432</a>
                          <br />
                          <a href="#">+84 987 654 321</a></p>
                  </li>
                  <li>
                      <span><i class="fa fa-envelope"></i></span>
-                     <p><a href="#">diachiemail@gmail.com</a></p>
+                     <p><a href="#">nhom3@gmail.com</a></p>
                 </li>
                  <li>
                      <form class="form">
