@@ -115,7 +115,7 @@ class PageController extends Controller
         ],
         [
             'name.required'=>'Bạn chưa nhập tên người dùng',
-            'name.min'=>'Tên người dùng phải từ 3 kí tự',
+            'name.min'=>'Tên người dùng phải từ 6 kí tự',
             
         ]);
          $user = Auth::user();
@@ -156,7 +156,7 @@ class PageController extends Controller
         ],
         [
             'name.required'=>'Bạn chưa nhập tên người dùng',
-            'name.min'=>'Tên người dùng phải từ 3 kí tự',
+            'name.min'=>'Tên người dùng phải từ 6 kí tự',
             'email.required'=>'Bạn chưa nhập email',
             'email.email'=>'Hãy nhập đúng định dạng email',
             'email.unique'=>'Email này đã tồn tại',
