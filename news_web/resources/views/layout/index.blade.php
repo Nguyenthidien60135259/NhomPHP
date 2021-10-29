@@ -27,13 +27,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-        <style type="text/css">
-                *{
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-    
- }
+            <style type="text/css">
+             
 
 footer{
      position: relative;
@@ -80,10 +75,10 @@ footer .container .noi-dung.about p{
      margin-top: 20px;
      display: flex;
  }
-.social-icon li {
+footer .social-icon li {
      list-style: none;
  }
- .social-icon li a{
+ footer .social-icon li a{
      display: inline-block;
      width: 40px;
      height: 40px;
@@ -95,10 +90,10 @@ footer .container .noi-dung.about p{
      text-decoration: none;
      border-radius: 4px;
  }
-.social-icon li a:hover{
+footer .social-icon li a:hover{
      background: #f00;
  }
-.social-icon li a .fa{
+footer .social-icon li a .fa{
      color: #fff;
      font-size: 20px;
  }
@@ -126,16 +121,16 @@ footer .container .noi-dung.about p{
     position: relative;
     width: 25%;
  }
- .links ul li{
+ footer .links ul li{
      list-style: none;
  }
- .links ul li a{
+ footer .links ul li a{
      color: #999;
      text-decoration: none;
      margin-bottom: 10px;
      display: inline-block;
  }
-.links ul li a:hover{
+footer .links ul li a:hover{
      color: #fff;
  }
  .contact h2{
@@ -160,19 +155,19 @@ footer .container .noi-dung.about p{
 .contact .info{
      position: relative;
  }
- .contact .info li{
+footer .contact .info li{
      display: flex;
      margin-bottom: 16px;
  }
- .contact .info li span:nth-child(1) {
+ footer .contact .info li span:nth-child(1) {
      color: #fff;
      font-size: 20px;
      margin-right: 10px;
  }
-.contact .info li span{
+footer .contact .info li span{
      color: #999;
  }
-.contact .info li a{
+footer .contact .info li a{
      color: #999;
      text-decoration: none;
  }
