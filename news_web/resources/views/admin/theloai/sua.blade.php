@@ -32,8 +32,8 @@
                                 <input class="form-control" name="Ten" placeholder="Điền tên thể loại ..." value="{{$theloai->Ten}}" />
                             </div>
                             
-                            <button type="submit" class="btn btn-default">Sửa</button>
-                            <button type="reset" class="btn btn-default">Làm mới</button>
+                            <button type="submit" class="btn btn-success">Sửa</button>
+                            <button type="reset" class="btn btn-primary">Làm mới</button>
                         <form>
                     </div>
                 </div>
