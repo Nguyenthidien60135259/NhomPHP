@@ -24,7 +24,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style type="text/css">
+        <style type="text/css">
                 *{
      margin: 0;
      padding: 0;
@@ -173,7 +173,7 @@ footer .container .noi-dung.about p{
      color: #999;
      text-decoration: none;
  }
- .btn {
+ footer .btn {
      display: inline-block;
      background: transparent;
      color: inherit;
@@ -185,21 +185,21 @@ footer .container .noi-dung.about p{
      transition: all 200ms ease-in;
      cursor: pointer;
  }
- .btn--primary {
+ footer .btn--primary {
      background: #222;
      color: #fff;
      box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
      border-radius: 2px;
      padding: 8px 24px;
  }
- .btn--primary:hover {
+ footer .btn--primary:hover {
      background: #f00;
  }
- .btn--primary:active {
+ footer .btn--primary:active {
      background: #f00;
      box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
  }
-.form__field {
+footer .form__field {
      width: 90%;
      background: #fff;
      color: #a3a3a3;
