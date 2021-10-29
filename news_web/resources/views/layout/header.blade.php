@@ -26,7 +26,7 @@
 			        <div class="form-group">
 			          <input name="tukhoa" type="text" class="form-control" placeholder="Nhập từ khóa tìm kiếm ...">
 			        </div>
-			        <button type="submit" class="btn btn-warning">Tìm kiếm</button>
+			         <button type="submit" class="btn btn-primary">Tìm kiếm</button>
 			    </form>
 
 			    <ul class="nav navbar-nav pull-right">
