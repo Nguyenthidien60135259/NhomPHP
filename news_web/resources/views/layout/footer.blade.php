@@ -16,9 +16,9 @@
          <div class="noi-dung links">
              <h2>Đường Dẫn</h2>
              <ul>
-                 <li><a href="#">Trang Chủ</a></li>
-                 <li><a href="#">Về Chúng Tôi</a></li>
-                 <li><a href="#">Thông Tin Liên Lạc</a></li>
+                 <li><a href="trangchu">Trang Chủ</a></li>
+                 <li><a href="gioithieu">Về Chúng Tôi</a></li>
+                 <li><a href="lienhe">Thông Tin Liên Lạc</a></li>
                  <li><a href="#">Dịch Vụ</a></li>
                  <li><a href="#">Điều Kiện Chính Sách</a></li>
              </ul>
