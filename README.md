@@ -27,9 +27,9 @@ composer update
 	Users
 -	Truy cập: http://127.0.0.1:8000/trangchu
 -	Người dùng có thể xem, tìm kiếm tin tức, liên hệ, giới thiệu (không cần tài khoản). Đối với chức năng bình luận người dùng cần đăng nhập tài khoản.
--	Khi đăng ký Users:
+-	Khi đăng ký Users: http://127.0.0.1:8000/dangky
 + Name: Tên người dùng phải từ 6 kí tự (chữ hoặc số)
-+ Email: Phải đúng định dạng abc@gmail.com
++ Email: Phải đúng định dạng vd abc@gmail.com
 + Password: Ít nhất 6 kí tự và không vượt quá 32 kí tự.
-- Sau khi đăng ký tài khoản thành công thì bạn đăng nhập.
+- Sau khi đăng ký tài khoản thành công thì bạn đăng nhập và vào trang web để có thể thực hiện chức năng bình luận.
 CHÚC CÁC BẠN THÀNH CÔNG <3
