@@ -3,7 +3,7 @@
          <!--Bắt Đầu Nội Dung Giới Thiệu-->
          <div class="noi-dung about">
              <h2>Về Chúng Tôi</h2>
-             <p>Lorem ipsumdolor sit...</p>
+             <p>Website tin tức là...</p>
              <ul class="social-icon">
                  <li><a href=""><i class="fa fa-facebook"></i></a></li>
                  <li><a href=""><i class="fa fa-twitter"></i></a></li>
