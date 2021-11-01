@@ -1,5 +1,5 @@
 # NhomPHP
-Hướng dẫn chạy và dùng Web tin tức
+I. Hướng dẫn chạy và dùng Web tin tức
 
 1.	Cài đặt
 -	Cài đặt laravel & composer :https://www.youtube.com/watch?v=-SwzQ7-ipW8&t=315s
@@ -33,3 +33,21 @@ composer update
 + Password: Ít nhất 6 kí tự và không vượt quá 32 kí tự.
 - Sau khi đăng ký tài khoản thành công thì bạn đăng nhập và vào trang web để có thể thực hiện chức năng bình luận.
 CHÚC CÁC BẠN THÀNH CÔNG <3
+
+II. Phân công công việc
+1.Admin
+  -Nguyễn Thị Thanh Tuyền
+    + Tin tức, thể loại, thiết kế SQL
+  -Hồ Nguyễn Hồng Huệ
+    + Loại tin User
+    + Quản lý người dùng, slide, loại tin
+2.Người dùng
+  -Nguyễn Thị Diễn
+    + Đăng kí, đăng nhập
+    + Liên hệ, giới thiệu
+  -Nguyễn Hoàng Việt
+    + Thiết kế SQL
+    + Tìm kiếm, Phân trang, comment
+    + Chi tiết tin tức
+    + Trang chủ
+  
