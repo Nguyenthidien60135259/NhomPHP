@@ -37,9 +37,9 @@ CHÚC CÁC BẠN THÀNH CÔNG <3
 II. Phân công công việc
 1.	Admin
 •	Nguyễn Thị Thanh Tuyền
-	Tin tức, thể loại, thiết kế SQL
+	Tin tức, thể loại, thiết kế SQL (bao gồm các chức năng: thêm, xóa, sửa, bình luận, tìm kiếm)
 •	Hồ Nguyễn Hồng Huệ
-	Loại tin, User, slide
+	Loại tin, User, slide, thiết kế giao diện admin (bao gồm các chức năng: thêm, xóa, sửa, phân quyền, phân trang, đăng nhập admin)
 2.	Người dùng
 •	Nguyễn Thị Diễn
 	Đăng kí, đăng nhập, liên hệ, giới thiệu, comment
