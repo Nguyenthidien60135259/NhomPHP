@@ -34,20 +34,4 @@ composer update
 - Sau khi đăng ký tài khoản thành công thì bạn đăng nhập và vào trang web để có thể thực hiện chức năng bình luận.
 CHÚC CÁC BẠN THÀNH CÔNG <3
 
-II. Phân công công việc
-1.Admin
-  -Nguyễn Thị Thanh Tuyền
-    + Tin tức, thể loại, thiết kế SQL
-  -Hồ Nguyễn Hồng Huệ
-    + Loại tin User
-    + Quản lý người dùng, slide, loại tin
-2.Người dùng
-  -Nguyễn Thị Diễn
-    + Đăng kí, đăng nhập
-    + Liên hệ, giới thiệu
-  -Nguyễn Hoàng Việt
-    + Thiết kế SQL
-    + Tìm kiếm, Phân trang, comment
-    + Chi tiết tin tức
-    + Trang chủ
-  
+
